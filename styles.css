@@ -158,3 +158,19 @@ footer {
         font-size: 10px;
     }
 }
+.arcade-machine {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+canvas {
+    background: black;
+    border: 4px solid #00ffff;
+    box-shadow: 0 0 30px #00ffff;
+    max-width: 100%;
+}
+
+.controls {
+    margin-top: 15px;
+    color: #ffe600;
+}
