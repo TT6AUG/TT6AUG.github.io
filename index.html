@@ -1,68 +1,11 @@
 TT6AUG-githubpage
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neon Arcade 1985</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<section class="arcade-machine">
+    <h2>🚀 SPACE SHOOTER</h2>
 
-    <div class="grid"></div>
+    <canvas id="spaceGame" width="800" height="500"></canvas>
 
-    <header>
-        <h1 class="logo">NEON ARCADE</h1>
-        <p class="subtitle">Insert Coin • Press Start • High Scores Forever</p>
-    </header>
+    <div class="controls">
+        ← → Move | SPACE Shoot
+    </div>
+</section>
 
-    <section class="hero">
-        <h2>WELCOME TO THE RETRO FUTURE</h2>
-        <p>
-            Relive the golden age of arcade gaming with classic cabinets,
-            pixel battles, and legendary high scores.
-        </p>
-
-        <button id="coinBtn">INSERT COIN</button>
-
-        <div class="credits">
-            Credits: <span id="creditCount">0</span>
-        </div>
-    </section>
-
-    <section class="games">
-        <div class="card">
-            <h3>👾 GALACTIC INVADERS</h3>
-            <p>Defend Earth from pixel aliens.</p>
-        </div>
-
-        <div class="card">
-            <h3>🏎 TURBO RACER</h3>
-            <p>Race through neon highways.</p>
-        </div>
-
-        <div class="card">
-            <h3>🦾 ROBOT RAMPAGE</h3>
-            <p>Smash everything in your path.</p>
-        </div>
-    </section>
-
-    <section class="leaderboard">
-        <h2>HIGH SCORES</h2>
-
-        <ul>
-            <li>AAA - 999,999</li>
-            <li>JET - 850,200</li>
-            <li>PIX - 721,100</li>
-            <li>BOT - 675,500</li>
-            <li>KID - 500,000</li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>© 1985 NEON ARCADE (Totally Not a Time Machine)</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
